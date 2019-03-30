@@ -1,0 +1,10 @@
+[
+  {
+    "id": 1,
+    "description": "Citrus-CAF was initially based off CyanogenMod in the early days of its inception. Later, the suggestions were taken into consideration and the needs and demands of our users were carefully studied. On realising the potential of CAF tags, and how CAF optimisations can help Snapdragon devices run with its full capability, we rebased the project to Code Aurora Sources, more commonly known as CAF. The Xiaomi Redmi Note 3 was the first device to get the full-fledged taste of our Tangy Nougat. In the beginning, it was just two people behind, but in time, a lot of people joined us, each giving their own contribution. With the release of Android Pie, we decided to bring back this project to life with more optimisations and stability in our mind. We present to you Citrus-CAF KeyLimePie. Hope you enjoy your time using this ROM."
+  },
+  {
+    "id":2,
+    "description":"Citrus-CAF was built to create a never-before combination of customization & performance, incorporating the features that our community expects."
+  }
+]
