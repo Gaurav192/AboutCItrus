@@ -12,11 +12,11 @@ class TeamPage extends StatelessWidget {
               delegate:
                   SliverChildBuilderDelegate((BuildContext context, int index) {
             return Card(
-              margin: EdgeInsets.all(10),
+              margin: EdgeInsets.symmetric(vertical:10),
               child: Column(
                 children: <Widget>[
                   Container(
-                    height: 250,
+                    height: 260,
                     child: Column(
                       children: <Widget>[
                         Stack(
@@ -24,7 +24,7 @@ class TeamPage extends StatelessWidget {
                           children: <Widget>[
                             Positioned(
                               child: Padding(
-                                padding: const EdgeInsets.only(bottom: 50),
+                                padding: const EdgeInsets.only(top:10,bottom:50),
                                 child: Image.asset(
                                   _items[index]['coverImage'],
                                   height: 200,
@@ -32,12 +32,14 @@ class TeamPage extends StatelessWidget {
                                 ),
                               ),
                             ),
-                            Positioned(
+                            CircleAvatar(
+                              backgroundColor: Colors.white,
                               child: CircleAvatar(
-                                maxRadius: 50,
+                                maxRadius: 45,
                                 backgroundImage:
                                     AssetImage(_items[index]['avatar']),
                               ),
+                              maxRadius: 50,
                             ),
                           ],
                         ),
