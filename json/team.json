@@ -1,0 +1,45 @@
+[
+  {
+    "name": "Adarsh M.R",
+    "role": "Founder|Developer",
+    "coverImage": "assets/cover/adarsh.jpg",
+    "avatar": "kek"
+  },
+  {
+    "name": "Rohit Poroli",
+    "role": "Co-Founder|Developer",
+    "coverImage": "assets/cover/rohit.jpg",
+    "avatar": "kek"
+  },
+
+  {
+    "name": "Sathish Kumar",
+    "role": "Developer",
+    "coverImage": "assets/cover/sathish.jpg",
+    "avatar": "kek"
+  },
+  {
+    "name": "Aditya Gurg",
+    "role": "Developer",
+    "coverImage": "assets/cover/aditya.jpg",
+    "avatar": "kek"
+  },
+  {
+    "name": "Satyabrat Sahoo",
+    "role": "App Developer",
+    "coverImage": "assets/cover/satyabrat.jpg",
+    "avatar": "kek"
+  },
+  {
+    "name": "Rock Kellan",
+    "role": "Designer",
+    "coverImage": "assets/cover/kellan.jpg",
+    "avatar": "kek"
+  },
+  {
+    "name": "Minar(Recenz)",
+    "role": "Bootanimation Designer",
+    "coverImage": "assets/cover/minar.png",
+    "avatar": "kek"
+  }
+]
