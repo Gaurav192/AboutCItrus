@@ -16,20 +16,42 @@ class TeamPage extends StatelessWidget {
               child: Column(
                 children: <Widget>[
                   Container(
-                      child: Column(
-                    children: <Widget>[
-                      Image.asset(
-                        _items[index]['coverImage'],
-                        fit: BoxFit.fitWidth,
-                      ),
-                      ListTile(
-                        title: Text(_items[index]['name'],
-                            textAlign: TextAlign.center),
-                        subtitle: Text(_items[index]['role'],
-                            textAlign: TextAlign.center),
-                      )
-                    ],
-                  )),
+                    height: 250,
+                    child: Column(
+                      children: <Widget>[
+                        Stack(
+                          alignment: Alignment.bottomCenter,
+                          children: <Widget>[
+                            Positioned(
+                              child: Padding(
+                                padding: const EdgeInsets.only(bottom: 50),
+                                child: Image.asset(
+                                  _items[index]['coverImage'],
+                                  height: 200,
+                                  fit: BoxFit.fitWidth,
+                                ),
+                              ),
+                            ),
+                            Positioned(
+                              child: CircleAvatar(
+                                maxRadius: 50,
+                                backgroundImage:
+                                    AssetImage(_items[index]['avatar']),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
+                  ),
+                  ListTile(
+                    title: Text(
+                      _items[index]['name'],
+                      textAlign: TextAlign.center,
+                    ),
+                    subtitle: Text(_items[index]['role'],
+                        textAlign: TextAlign.center),
+                  )
                 ],
               ),
             );
