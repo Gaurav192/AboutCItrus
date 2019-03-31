@@ -25,7 +25,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     final List<Widget> pages = [Adarsh(), AboutPage(), TeamPage()];
     return MaterialApp(
-      theme: ThemeData(primarySwatch: Colors.teal),
+      theme: ThemeData(primaryColor: Color.fromARGB(255, 37, 124, 125)),
       home: Scaffold(
           body: Sliver(pages[selectedIndex]),
           bottomNavigationBar: BottomNavBar(onTap, selectedIndex)),
